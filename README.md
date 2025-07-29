@@ -31,24 +31,5 @@ This project involves:
 - Data Modeling  
 - Data Analytics  
 
-## Repository structure
-.
-├── datasets/                           # Raw CSV input files (CRM, ERP)
-├── docs/
-│   └── Create_data_catalog.md          # Data catalog for tables/views
-├── scripts/
-│   ├── bronze/
-│   │   ├── ddl_bronze.sql              # DDL to create raw tables
-│   │   └── proc_load_bronze.sql        # Stored procedure to load raw data
-│   ├── silver/
-│   │   ├── ddl_silver.sql              # DDL to create cleaned tables
-│   │   └── proc_load_silver.sql        # Stored procedure to clean/transform data
-│   ├── gold/
-│   │   └── ddl_gold.sql                # DDL to create business-ready views (star schema)
-│   └── init_database.sql              # Create database and schema structure
-├── tests/
-│   └── quality_checks_silver.sql      # Data quality checks for Silver layer
-├── LICENSE
-└── README.md                          # You are here
 
 
